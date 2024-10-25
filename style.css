@@ -1,0 +1,119 @@
+/* General Page Styling */
+body {
+    background-color: #e6f2e6; /* Light green background */
+    font-family: 'Poppins', sans-serif; /* Custom font */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #5d9451; /* Dark green header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 20px 0;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px #555; /* Add shadow to headings */
+}
+
+h2 {
+    font-size: 28px; /* Make h2 slightly smaller than h1 */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    background-color: #f2f2f2;
+    color: #5d9451;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #5d9451;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #5d9451; /* Darker green hover */
+    color: white;
+}
+
+/* Main Section Styling */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+    padding: 20px;
+}
+
+/* Image Styling */
+img {
+    border: solid 2px #5d9451;
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Add a smooth zoom effect */
+}
+
+img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #5d9451;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Customizing Text Links */
+a {
+    color: #5d9451;
+}
+
+a:hover {
+    color: #3e683b;
+    text-decoration: underline;
+}
+
+/* Button Styling for Links */
+button {
+    background-color: #5d9451;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3e683b;
+}
