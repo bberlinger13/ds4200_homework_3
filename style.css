@@ -1,7 +1,7 @@
 /* General Page Styling */
 body {
-    background-color: #e6f2e6; /* Light green background */
-    font-family: 'Poppins', sans-serif; /* Custom font */
+    background-color: #edf0f2; /* Soft off-white background */
+    font-family: 'Poppins', sans-serif; /* Modern font */
     color: #333;
     margin: 0;
     padding: 0;
@@ -10,20 +10,21 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #5d9451; /* Dark green header */
+    background-color: #4b6652; /* Elegant deep green */
     color: white;
     padding: 20px;
     text-align: center;
+    border-bottom: 5px solid #d2e1dd; /* Subtle border */
 }
 
 h1, h2 {
     margin: 20px 0;
     font-weight: 600;
-    text-shadow: 1px 1px 2px #555; /* Add shadow to headings */
+    letter-spacing: 1px; /* Add a bit of letter spacing for modern look */
 }
 
 h2 {
-    font-size: 28px; /* Make h2 slightly smaller than h1 */
+    font-size: 28px;
 }
 
 nav ul {
@@ -38,17 +39,17 @@ nav ul li {
 
 nav a {
     background-color: #f2f2f2;
-    color: #5d9451;
+    color: #4b6652;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 20px;
-    border: 2px solid #5d9451;
-    border-radius: 5px;
+    border: 2px solid #4b6652;
+    border-radius: 50px; /* Slim, rounded buttons */
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 nav a:hover {
-    background-color: #5d9451; /* Darker green hover */
+    background-color: #4b6652; /* Elegant green hover */
     color: white;
 }
 
@@ -57,9 +58,9 @@ main {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 20px; /* Softer corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Softer shadow */
     text-align: left;
 }
 
@@ -70,50 +71,38 @@ ul {
 
 /* Image Styling */
 img {
-    border: solid 2px #5d9451;
+    border: solid 2px #4b6652;
     margin-top: 10px;
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    transition: transform 0.3s ease; /* Add a smooth zoom effect */
+    transition: transform 0.3s ease; /* Smooth hover effect */
 }
 
 img:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
+    transform: scale(1.05); /* Slight zoom effect */
 }
 
 /* Footer Styling */
 footer {
-    background-color: #5d9451;
+    background-color: #4b6652; /* Darker footer for contrast */
     color: white;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     margin-top: 20px;
 }
 
-/* Customizing Text Links */
-a {
-    color: #5d9451;
+footer p {
+    margin: 0;
 }
 
-a:hover {
-    color: #3e683b;
-    text-decoration: underline;
+footer a {
+    color: #d2e1dd; /* Softer green for email link */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
-/* Button Styling for Links */
-button {
-    background-color: #5d9451;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin: 10px 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #3e683b;
+footer a:hover {
+    color: white; /* Highlight email on hover */
 }
