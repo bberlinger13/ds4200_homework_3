@@ -1,7 +1,7 @@
 /* General Page Styling */
 body {
-    background-color: #edf0f2; /* Soft off-white background */
-    font-family: 'Poppins', sans-serif; /* Modern font */
+    background-color: #edf0f2;  
+    font-family: 'Poppins', sans-serif;
     color: #333;
     margin: 0;
     padding: 0;
@@ -10,25 +10,31 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #4b6652; /* Elegant deep green */
+    background-color: #4b6652; 
     color: white;
     padding: 20px;
     text-align: center;
-    border-bottom: 5px solid #d2e1dd; /* Subtle border */
+    border-bottom: 5px solid #d2e1dd; 
 }
 
 h1, h2 {
     margin: 20px 0;
     font-weight: 600;
-    letter-spacing: 1px; /* Add a bit of letter spacing for modern look */
+    letter-spacing: 1px;
 }
 
 h2 {
     font-size: 28px;
 }
 
+/* Centering the navigation buttons */
+nav {
+    text-align: center; /* Center the entire nav */
+    margin-bottom: 20px; /* Add some space below */
+}
+
 nav ul {
-    list-style-type: none;
+    display: inline-block; /* Center the ul itself */
     padding: 0;
 }
 
@@ -37,6 +43,7 @@ nav ul li {
     margin-right: 15px;
 }
 
+/* Button Style for navigation links */
 nav a {
     background-color: #f2f2f2;
     color: #4b6652;
