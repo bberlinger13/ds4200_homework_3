@@ -14,7 +14,7 @@ Check out the live site here: [Blythe's Greenhouse Plant Website](https://bberli
 
 ## Features
 - A homepage with an introduction about me and my greenhouse.
-- A detailed page showcasing my favorite plants, complete with images and descriptions.
+- A detailed page highlighting my favorite plants, complete with images and descriptions.
 - Responsive design with interactive buttons and hover effects.
 - Custom CSS styles for a modern and elegant look.
 
