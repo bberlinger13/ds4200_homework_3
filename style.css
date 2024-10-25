@@ -29,8 +29,8 @@ h2 {
 
 /* Centering the navigation buttons */
 nav {
-    text-align: center; /* Center the entire nav */
-    margin-bottom: 20px; /* Add some space below */
+    text-align: center; 
+    margin-bottom: 20px; 
 }
 
 nav ul {
